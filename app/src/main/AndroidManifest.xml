@@ -28,6 +28,10 @@
         <activity
             android:name=".AdminActivity"
             android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QUIZ1"
+            android:label="@string/title_activity_quiz1"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

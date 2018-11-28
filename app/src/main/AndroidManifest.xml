@@ -32,6 +32,14 @@
         <activity
             android:name=".QUIZ1"
             android:label="@string/title_activity_quiz1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".S_courselist"
+            android:label="@string/title_activity_s_courselist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentActivity"
+            android:label="@string/title_activity_student"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

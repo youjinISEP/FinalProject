@@ -112,4 +112,5 @@
     </string>
     <string name="title_activity_s_courselist">S_courselist</string>
     <string name="title_activity_student">StudentActivity</string>
+    <string name="my_courses">My Courses</string>
 </resources>

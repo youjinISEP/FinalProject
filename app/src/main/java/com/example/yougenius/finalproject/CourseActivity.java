@@ -30,13 +30,14 @@ public class CourseActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Add the course name to my course list. and show the dialog.
+                Intent addIntent = new Intent(CourseActivity.this, StudentActivity.class);
             }
         });
 
         back.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent backIntent = new Intent(CourseActivity.this, S_courselist.class);
+                Intent backIntent = new Intent(CourseActivity.this, StudentActivity.class);
                 startActivity(backIntent);
             }
         });

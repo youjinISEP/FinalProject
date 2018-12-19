@@ -109,7 +109,8 @@ public class StudentActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.profile) {
-
+            Intent profile = new Intent(StudentActivity.this, profileActivity.class);
+            startActivity(profile);
         } else if (id == R.id.addCourse) {
             Intent addCourse = new Intent(StudentActivity.this, S_courselist.class);
             startActivity(addCourse);
@@ -118,7 +119,7 @@ public class StudentActivity extends AppCompatActivity
         } else if (id == R.id.score) {
 
         } else if (id == R.id.logout) {
-
+            Intent logout = new Intent(StudentActivity.this, MainActivity.class);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

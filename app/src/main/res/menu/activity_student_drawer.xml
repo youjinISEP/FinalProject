@@ -9,14 +9,6 @@
             android:icon="@drawable/ic_action_profile"
             android:title="Profile" />
         <item
-            android:id="@+id/addCourse"
-            android:icon="@drawable/ic_action_addcourse"
-            android:title="Add Courses" />
-        <item
-        android:id="@+id/deleteCourse"
-        android:icon="@drawable/ic_action_deletecourse"
-        android:title="Delete Courses" />
-        <item
             android:id="@+id/score"
             android:icon="@drawable/ic_action_score"
             android:title="Test Score" />

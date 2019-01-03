@@ -111,10 +111,6 @@ public class StudentActivity extends AppCompatActivity
         if (id == R.id.profile) {
             Intent profile = new Intent(StudentActivity.this, profileActivity.class);
             startActivity(profile);
-        } else if (id == R.id.addCourse) {
-            Intent addCourse = new Intent(StudentActivity.this, S_courselist.class);
-            startActivity(addCourse);
-        } else if (id == R.id.deleteCourse) {
 
         } else if (id == R.id.score) {
 

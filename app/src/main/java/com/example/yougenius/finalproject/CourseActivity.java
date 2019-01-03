@@ -9,14 +9,13 @@ import android.widget.VideoView;
 
 public class CourseActivity extends AppCompatActivity {
 
-    Button exam,addCourse,back;
+    Button exam,back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_course);
 
         exam = (Button)findViewById(R.id.examButton);
-        addCourse = (Button)findViewById(R.id.addButton);
         back = (Button)findViewById(R.id.back_to_list);
 
 
@@ -33,13 +32,7 @@ public class CourseActivity extends AppCompatActivity {
             }
         });
 */
-        addCourse.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //Add the course name to my course list. and show the dialog.
-                Intent addIntent = new Intent(CourseActivity.this, StudentActivity.class);
-            }
-        });
+
 
         back.setOnClickListener(new Button.OnClickListener() {
             @Override

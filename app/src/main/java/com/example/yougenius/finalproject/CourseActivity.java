@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.VideoView;
 
 public class CourseActivity extends AppCompatActivity {
 
@@ -17,6 +18,12 @@ public class CourseActivity extends AppCompatActivity {
         exam = (Button)findViewById(R.id.examButton);
         addCourse = (Button)findViewById(R.id.addButton);
         back = (Button)findViewById(R.id.back_to_list);
+
+
+        VideoView videoView = findViewById(R.id.videoView);
+        videoView.setVideoPath("android.resource://com.example.yougenius.finalproject/"+R.raw.demo);
+        videoView.start();
+
 /*
         exam.setOnClickListener(new Button.OnClickListener() {
             @Override
@@ -41,5 +48,6 @@ public class CourseActivity extends AppCompatActivity {
                 startActivity(backIntent);
             }
         });
+
     }
 }
